@@ -60,7 +60,7 @@
 <body>
   <div id="scene">
     <div id="darkness"></div>
-    <button id="toggleButton">🔦 Включить фонарик</button>
+    <button id="toggleButton">🔦ON</button>
   </div>
 
   <script>
@@ -82,7 +82,7 @@
     button.addEventListener("click", () => {
       flashlightOn = !flashlightOn;
       darkness.style.display = flashlightOn ? 'block' : 'none';
-      button.textContent = flashlightOn ? "❌ Выключить фонарик" : "🔦 Включить фонарик";
+      button.textContent = flashlightOn ? "❌OFF" : "🔦ON";
     });
   </script>
 </body>
